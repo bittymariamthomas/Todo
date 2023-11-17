@@ -1,0 +1,13 @@
+.todo
+{
+    background-color: lightcoral;
+    height:100vh;
+}
+.box{
+    width: 50%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rebeccapurple;
+    box-shadow:  rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: scroll;
+}
