@@ -18,4 +18,7 @@ this.api.getTodo().subscribe((data:any)=>{
   this.todos=data
 })
 }
+delete(id: any) {
+  this.todos=this.todos.filter((e : {id:any})=>e.id !=id)
+}
 }

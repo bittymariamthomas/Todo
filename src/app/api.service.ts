@@ -9,7 +9,7 @@ export class ApiService {
   constructor(private http:HttpClient) { }
 
   getTodo(){
-    return this.http.get('https://jsonplaceholder.typicode.com/todos')
+    return this.http.get('https://jsonplaceholder.typicode.com/todos/')
   }
   
 }
