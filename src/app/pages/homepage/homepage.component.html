@@ -1,8 +1,9 @@
 <div class="todo">
     <h1 class="text-center py-5 text-danger">My Todo-List</h1>
     <div class="container d-flex flex-column justify-content-center align-items-center">
-        <div class="addinput my-4">
-            <input class="inputAdd" type="text">&nbsp;
+        <div class="addinput my-5">
+            <input class="inputAdd" type="text"[(ngModel)]="newTaskTitle" />&nbsp;
+            <button class="btn btn-primary" (click)="addNewTask()">AddItem</button>
         </div>
 
 <div class="box  py-4">
